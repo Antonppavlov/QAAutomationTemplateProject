@@ -34,7 +34,7 @@ public class TemplateTest extends Configuration {
     @Title("Проверка поиска по слову 'Ипотека'")
     @Description("Тест для примера отображения ошибки в отчете")
     @Test
-    public void test2() throws Exception {
+    public void test2(){
         Allure.open("https://www.open.ru/search?type=&except_type=news&query=%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B0");
         Allure.$(TypeElement.TEXT, ".search-in-news-label").should(Condition.exactText("По запросу «ипотека» найдено 12 результатов"));
     }

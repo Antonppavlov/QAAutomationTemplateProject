@@ -11,7 +11,7 @@
     <properties>
 
         <allure.version>1.5.3</allure.version>
-        <selenide.version>4.4.1</selenide.version>
+        <selenide.version>4.4.3</selenide.version>
         <lombok.version>1.16.10</lombok.version>
         <junin.version>4.12</junin.version>
         <selenium-safari-driver>3.3.0</selenium-safari-driver>
