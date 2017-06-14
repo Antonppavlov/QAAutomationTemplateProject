@@ -120,6 +120,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
+                    <!--паралельные тесты-->
+                    <parallel>classes</parallel>
+                    <perCoreThreadCount>true</perCoreThreadCount>
+                    <threadCount>2</threadCount>
+
                     <!--Параметр который отвечает за запуск сборки билда без учета результата тестов-->
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>
