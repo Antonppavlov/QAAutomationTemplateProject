@@ -28,6 +28,7 @@ public class TemplateTest extends Configuration {
         inputSearch.sendKeys("ипотека");
         inputSearch.pressEnter();
         Allure.$(TypeElement.TEXT, ".search-in-news-label").should(Condition.exactText("По запросу «ипотека» найдено 11 результатов"));
+
     }
 
     @TestCaseId(value = "001")
