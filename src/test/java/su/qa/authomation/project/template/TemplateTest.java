@@ -32,7 +32,7 @@ public class TemplateTest extends Configuration {
     }
 
     @TestCaseId(value = "001")
-    @Title("Проверка поиска по слову 'Ипотека'")
+    @Title("Проверка поиска по слову 'Ипотека' 2 ")
     @Description("Тест для примера отображения ошибки в отчете")
     @Test
     public void test2(){
