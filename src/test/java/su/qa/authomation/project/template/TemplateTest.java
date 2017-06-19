@@ -38,7 +38,7 @@ public class TemplateTest extends Configuration {
     //для unix не забыть драйверам выставить chmod +x
 
 //    @TestCaseId(value = "001")
-  //  @Title("Проверка поиска по слову 'Ипотека'")
+    @Title("Проверка поиска по слову 'Ипотека'")
     @Test
     public void searchForText() throws Exception {
         Allure.open("https://www.open.ru/");
@@ -51,8 +51,8 @@ public class TemplateTest extends Configuration {
     }
 
     //@TestCaseId(value = "001")
-    //@Title("Проверка поиска по слову 'Ипотека' 2 ")
-    //@Description("Тест для примера отображения ошибки в отчете")
+    @Title("Проверка поиска по слову 'Ипотека'")
+    @Description("Тест для примера отображения ошибки в отчете")
     @Ignore
     @Test
     public void searchForUrl(){
