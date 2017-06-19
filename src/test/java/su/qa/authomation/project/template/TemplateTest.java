@@ -24,7 +24,12 @@ public class TemplateTest extends Configuration {
 
     @Parameterized.Parameters(name = "{index}: поиск по слову: {0}" )
     public static String[] data() {
-        return  new String[]{"ипотека","икотека","игротека"};
+        return  new String[]{
+                "ипотека",
+                "кредит",
+                "икотека",
+                "игротека",
+        };
     }
 
 //запуск для mvn
