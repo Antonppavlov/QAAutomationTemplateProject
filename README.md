@@ -1,7 +1,6 @@
 # QAAutomationTemplateProject
 
 Запуск для mvn:
-
 jetty:stop clean install -Dos=mac -Dselenide.browser=chrome -DtestData=testDataMac site jetty:run -Dorg.eclipse.jetty.annotations.maxWait=120
  
 Итог:
